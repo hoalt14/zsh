@@ -21,6 +21,8 @@ call plug#end()
 "  set mouse=a
 "endif
 
+"set clipboard=unnamedplus
+
 colorscheme gruvbox
 
 set background=dark
