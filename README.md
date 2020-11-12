@@ -51,7 +51,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 > Ctrl+R to search for commands in your history
 
-* nerd fonts
+* nerd fonts (optional)
 
 > sudo mkdir -p ~/.fonts
 
