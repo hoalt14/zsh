@@ -17,6 +17,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 * ref
 
+> https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+
 > https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8
 
 > https://deepu.tech/configure-a-beautiful-terminal-on-unix/
