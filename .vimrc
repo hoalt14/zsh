@@ -32,6 +32,8 @@ set autowrite
 
 set autoindent
 set si "smart indent
+"set tabstop=2
+set shiftwidth=2
 let g:indentLine_char = '¦ '
 
 syntax on
