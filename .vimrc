@@ -9,6 +9,7 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'fatih/vim-go'
 "Plug 'w0rp/ale'
 "Plug 'maximbaz/lightline-ale'
 
