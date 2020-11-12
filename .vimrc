@@ -9,6 +9,7 @@ Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'fatih/vim-go'
 "Plug 'w0rp/ale'
 "Plug 'maximbaz/lightline-ale'
 
@@ -21,6 +22,8 @@ call plug#end()
 "  set mouse=a
 "endif
 
+"set clipboard=unnamedplus
+
 colorscheme gruvbox
 
 set background=dark
@@ -32,6 +35,8 @@ set autowrite
 
 set autoindent
 set si "smart indent
+"set tabstop=2
+set shiftwidth=2
 let g:indentLine_char = '¦ '
 
 syntax on
@@ -71,3 +76,16 @@ let g:lightline = {
       \   'gitbranch': 'fugitive#head'
       \ },
       \ }
+
+" = golang
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
+
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
+autocmd FileType go nmap <leader>t  <Plug>(go-test)
+autocmd FileType go nmap <leader>b  <Plug>(go-build)
+autocmd FileType go nmap <Leader>c  <Plug>(go-coverage-toggle)
+
+let g:go_list_type = "quickfix"
+let mapleader = ","
