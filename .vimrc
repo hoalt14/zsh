@@ -17,9 +17,9 @@ call plug#end()
 
 " ===== Basic ===== "
 
-if has('mouse')
-  set mouse=a
-endif
+"if has('mouse')
+"  set mouse=a
+"endif
 
 colorscheme gruvbox
 
