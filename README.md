@@ -18,7 +18,13 @@
 
 > cp .vimrc ~/.vimrc
 
-> open vim -> :PlugInstall -> :PlugUpdate
+> open vim -> :source ~/.vimrc -> :PlugInstall -> :PlugUpdate
+
+* remove plugin
+
+1. Delete or comment out Plug commands for the plugins you want to remove.
+2. Reload vimrc (:source ~/.vimrc) or restart Vim
+3. Run :PlugClean. It will detect and remove undeclared plugins.
 
 ## for zsh
 
