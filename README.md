@@ -2,6 +2,14 @@
 
 ## for vim
 
+* ref
+
+> https://kipalog.com/posts/Di-cu-tu-Sublime-Text-sang-VIM
+
+> https://thefullsnack.com/posts/vim-setup-2019.html
+
+> https://github.com/trietphm/dotfiles/blob/master/.vimrc
+
 * install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
