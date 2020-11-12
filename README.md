@@ -75,3 +75,9 @@
 * theme Powerlevel10K
 
 > git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+
+## Settings terminal for VSCode
+
+Check font Iterm2
+
+Command + , -> terminal.integrated.fontFamily -> MesloLGS NF
