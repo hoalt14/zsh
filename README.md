@@ -11,11 +11,26 @@
 > https://github.com/trietphm/dotfiles/blob/master/.vimrc
 
 * install vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+> curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+* config
+
+> cp .vimrc ~/.vimrc
+
+> open vim -> :source ~/.vimrc -> :PlugInstall -> :PlugUpdate
+
+* remove plugin
+
+1. Delete or comment out Plug commands for the plugins you want to remove.
+2. Reload vimrc (:source ~/.vimrc) or restart Vim
+3. Run :PlugClean. It will detect and remove undeclared plugins.
 
 ## for zsh
 
 * ref
+
+> https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
 
 > https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8
 
@@ -49,7 +64,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 > Ctrl+R to search for commands in your history
 
-* nerd fonts
+* nerd fonts (optional)
 
 > sudo mkdir -p ~/.fonts
 
