@@ -1,5 +1,7 @@
 # dotfiles very simple for newbie
 
+![alt text](img/screen.png)
+
 ## for vim
 
 * ref
