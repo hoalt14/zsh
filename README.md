@@ -1,1 +1,1 @@
-# dotfile
+# dotfile very simple for newbie
