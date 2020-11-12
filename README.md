@@ -1,77 +1,67 @@
-# dotfiles very simple for newbie
+# simple for newbie
 
-![alt text](img/screen.png)
+![image](img/screen.png)
+
+## reference
+
+click this file [URL](./url)
+
+## Settings terminal for VSCode
+
+Check font iTerm2
+
+> Command + , -> terminal.integrated.fontFamily -> MesloLGS NF
 
 ## for vim
 
-* ref
+### install vim-plug
 
-> https://kipalog.com/posts/Di-cu-tu-Sublime-Text-sang-VIM
+- curl -fLo ~/.vim/autoload/plug.vim --create-dirs <https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim>
 
-> https://thefullsnack.com/posts/vim-setup-2019.html
+### config
 
-> https://github.com/trietphm/dotfiles/blob/master/.vimrc
+- cp .vimrc ~/.vimrc
+- open vim -> :source ~/.vimrc -> :PlugInstall -> :PlugUpdate
 
-* install vim-plug
+### remove plugin
 
-> curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-* config
-
-> cp .vimrc ~/.vimrc
-
-> open vim -> :source ~/.vimrc -> :PlugInstall -> :PlugUpdate
-
-* remove plugin
-
-1. Delete or comment out Plug commands for the plugins you want to remove.
-2. Reload vimrc (:source ~/.vimrc) or restart Vim
-3. Run :PlugClean. It will detect and remove undeclared plugins.
+- Step 1: Delete or comment out Plug commands for the plugins you want to remove.
+- Step 2: Reload vimrc (:source ~/.vimrc) or restart Vim
+- Step 3: Run :PlugClean. It will detect and remove undeclared plugins.
 
 ## for zsh
 
-* ref
+### zsh
 
-> https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+- Mac: brew install zsh zsh-completions
+- Ubuntu: sudo apt install zsh
 
-> https://medium.com/@ivanaugustobd/your-terminal-can-be-much-much-more-productive-5256424658e8
+### oh-my-zsh
 
-> https://deepu.tech/configure-a-beautiful-terminal-on-unix/
+- sh -c "$(curl -fsSL <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"
 
-* zsh
+### zsh-autosuggestions
 
-> Mac: brew install zsh zsh-completions
+- git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-> Ubuntu: sudo apt install zsh
+### zsh-syntax-highlighting
 
-* oh-my-zsh
+- git clone <https://github.com/zsh-users/zsh-syntax-highlighting.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-> sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+### fzf
 
-* zsh-autosuggestions
+- git clone --depth 1 <https://github.com/junegunn/fzf.git> ~/.fzf && ~/.fzf/install
 
-> git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#### Remember to answer “y” to all questions
 
-* zsh-syntax-highlighting
+- Ctrl+T to search for files
+- Ctrl+R to search for commands in your history
 
-> git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+#### nerd fonts (optional)
 
-* fzf
+- sudo mkdir -p ~/.fonts
+- tar xzf image-master-font-gofont-ttfs.tar.gz && mv Go-* ~/.fonts/
 
-> git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+#### theme Powerlevel10K
 
-**Remember to answer “y” to all questions!**
-
-> Ctrl+T to search for files
-
-> Ctrl+R to search for commands in your history
-
-* nerd fonts (optional)
-
-> sudo mkdir -p ~/.fonts
-
-> tar xzf image-master-font-gofont-ttfs.tar.gz && mv Go-* ~/.fonts/
-
-* theme Powerlevel10K
-
-> git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+- git clone <https://github.com/romkatv/powerlevel10k.git> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
