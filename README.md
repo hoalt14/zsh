@@ -1,8 +1,8 @@
 # ZSH
 
-![image](img/screen.png)
+![image](img/screenshot.png)
 
-## zsh
+## installation
 
 - Mac: brew install zsh zsh-completions
 - Ubuntu: sudo apt install zsh
