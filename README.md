@@ -4,7 +4,7 @@
 
 ## installation
 
-- Mac: brew install zsh zsh-completions
+- Mac: shell default is zsh so don't need install
 - Ubuntu: sudo apt install zsh
 
 ## font
@@ -24,6 +24,8 @@
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+**NOTE in macOS** run command: compaudit | xargs chmod g-w,o-w
 
 ## Powerlevel10K
 
