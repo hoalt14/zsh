@@ -25,7 +25,7 @@
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-**NOTE in macOS** run command: compaudit | xargs chmod g-w,o-w
+- after install run command **`on macOS`**: compaudit | xargs chmod g-w,o-w
 
 ## Powerlevel10K
 
