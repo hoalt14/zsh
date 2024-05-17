@@ -2,8 +2,6 @@
 
 ![image](img/ubuntu.png)
 
-![image](img/macos.png)
-
 ## Install zsh
 
 - MacOS: `shell default is zsh` so don't need install
