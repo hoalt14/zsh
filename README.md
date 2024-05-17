@@ -1,6 +1,8 @@
 # ZSH
 
-![image](img/screenshot.png)
+![image](img/ubuntu.png)
+
+![image](img/macos.png)
 
 ## Install zsh
 
