@@ -17,7 +17,8 @@
 - Install by **Double-click** on each file and click "Install". This will make `MesloLGS NF` font available to all applications on your system
 - Configure your terminal to use this font:
   - **iTerm2**: Open iTerm2 → Preferences → Profiles → Text and set Font to `MesloLGS NF`
-  - **Visual Studio Code**: Open File → Preferences → Settings, enter `terminal.integrated.fontFamily` in the search box and set the value to `MesloLGS NF`
+  - **Visual Studio Code**: Open File → Preferences → Settings, enter `terminal.integrated.fontFamily` in the search box and insert value `MesloLGS NF`
+  ![image](img/setting-font-family.png)
   - **GNOME Terminal (the default Ubuntu terminal)**: Open Terminal → Preferences and click on the selected profile under Profiles. Check Custom font under Text Appearance and select `MesloLGS NF Regular`
 
 ## Install oh-my-zsh
